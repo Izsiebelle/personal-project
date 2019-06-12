@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html{
+  height: 100%;
+}
+
+.hero-image{
+  background-image:  url("assets/images/code1.jpg");
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#main-title {
+  color: #bd7a21;
+  font-family: "Amatic SC", cursive;
+  font-size: 100px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+
+#sub-title{
+  color: #597332;
+  font-family: "Amatic SC", cursive;
+  font-size: 40px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flexbox;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0px 10px;
+  font-family: "Kodchasan", sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  color: #423f3f;
+}
+
+nav a:hover {
+  color: #a2a2a2;
+}
+
+.header-img{
+  height: 400px;
+}
+
+.section-heading{
+  color: #597332;
+  font-family: "Kodchasan", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px; 
+}
+
+.intro-text{
+  color: #191C26;
+  font-family: "Kodchasan", sans-serif;
+  font-size: 18px;
+  text-align: left;
+  margin-left: 50px;
+  width: 80%;
+}

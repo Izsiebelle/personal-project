@@ -32,7 +32,7 @@ body, html{
   font-family: "Amatic SC", cursive;
   font-size: 40px;
   text-align: center;
-  padding: 0;
+  padding: 10px 0px;
   margin: 0;
 }
 
@@ -51,6 +51,7 @@ nav li {
   display: inline-block;
   margin: 0px 10px;
   font-family: "Kodchasan", sans-serif;
+  font-weight: bold;
 }
 
 nav a {
@@ -71,7 +72,7 @@ nav a:hover {
   font-family: "Kodchasan", sans-serif;
   font-size: 20px;
   text-align: center;
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
 .intro-text{
